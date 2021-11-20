@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Playfair+Display&display=swap');
+        
+img{
+    width: 450px;
+}
+body{
+    color: #B80000;
+    background: black;  
+}
+h1{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+#galeria {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 2%;
+}
+img {
+    padding: 2%;
+}
+    h2 {
+
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+}
+    p {
+    font-family: 'Cinzel', serif;
+    font-size: 1em;
+    text-align: justify;
+}

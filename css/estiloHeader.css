@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#headerPrincipal{
+    
+    background: black;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3vw;
+    padding-left: 2vw;
+}
+
+#headerPrincipal nav{     
+    font-size: 20px;
+    font-family: "Roboto", calibri, sans-serif;
+}
+
+#headerPrincipal a:link{
+    text-decoration: none;
+}
+
+#headerPrincipal nav a:hover{
+    color: #DDBF62;
+}
+
+#headerPrincipal nav a{
+    padding: 10px;
+    color: #B80000;
+}
+
+#headerPrincipal img{
+    height: 16vh;
+    width: 22vw;
+} 
+
+footer{
+    background: black;
+    text-align: center;
+    font-size: 1.5em;
+    height: 12vh;
+    color: #B80000;
+}
